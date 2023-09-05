@@ -35,7 +35,7 @@ const NavBar = () => {
                 <h1 className="text-5xl font-medium ml-4">Priya Roul</h1>
             </div>
 
-            <ul className="flex">
+            <ul className="hidden md:flex">
                 {links.map(({id, link}) => (
                     <li
                         key={id}
@@ -47,7 +47,8 @@ const NavBar = () => {
                 ))}
             </ul>
 
-            <div onClick={() => setNav(!nav)}
+            <div
+                onClick={() => setNav(!nav)}
                  className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
             >
                 {nav ? <FaTimes size={30}/> : <FaBars size={30}/>}
