@@ -2,9 +2,12 @@ import React from "react";
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
 import css from "../assets/css.png";
-import react from "../assets/react.png"
-import tailwind from "../assets/tailwind.png"
-import github from "../assets/github.png"
+import react from "../assets/react.png";
+import tailwind from "../assets/tailwind.png";
+import github from "../assets/github.png";
+import springboot from "../assets/springboot.png";
+import java2 from "../assets/java2.png";
+
 
 const Experience = () => {
 
@@ -15,18 +18,20 @@ const Experience = () => {
             title: 'HTML',
             style: 'shadow-orange-500'
         },
+
         {
             id: 2,
-            src: javascript,
-            title: 'Javascript',
-            style: 'shadow-yellow-500'
-        },
-        {
-            id: 3,
             src: css,
             title: 'CSS',
             style: 'shadow-blue-500'
         },
+        {
+            id: 3,
+            src: javascript,
+            title: 'Javascript',
+            style: 'shadow-yellow-500'
+        },
+
         {
             id: 4,
             src: react,
@@ -35,12 +40,24 @@ const Experience = () => {
         },
         {
             id: 5,
+            src: java2,
+            title: 'Java',
+            style: 'shadow-orange-500'
+        },
+        {
+            id: 6,
+            src: springboot,
+            title: 'SpringBoot',
+            style: 'shadow-green-500'
+        },
+        {
+            id: 7,
             src: tailwind,
             title: 'Tailwind',
             style: 'shadow-blue-500'
         },
         {
-            id: 6,
+            id: 8,
             src: github,
             title: 'GitHub',
             style: 'shadow-gray-500'
