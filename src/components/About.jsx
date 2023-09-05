@@ -12,17 +12,16 @@ const About = () => {
                 </div>
 
                 <p className="text-xl mt-20">
-                    Hi I am Priyambada Roul, working as a software engineer at Baton Systems. I have nearly to years of
-                    experience in software development
+                    Hello, I am Priyambada Roul, working as a Software Developer at Baton Systems. I have nearly 2 years
+                    of
+                    experience in software development.
                     I am proficient in Java, Springboot, React, SQL. I write technical blogs and my hobby is to dance
-                    and read non-fictional books
+                    and read non-fictional books.
                 </p>
-
-                <br/>
-
-                <p className="text-xl">
-                    Apart from this I am open to other oppotunities. I have contributed in opensource projects like
-                    opensearch.
+                <br></br>
+                <p className="text-xl mt-10">
+                    Apart from this I am open to other opportunities. I have contributed in opensource projects.
+                    Reach me out to know more!
                 </p>
             </div>
         </div>
